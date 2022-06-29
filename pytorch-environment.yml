@@ -1,0 +1,20 @@
+name: pytorch-dev
+channels:
+  - nodefaults
+  - conda-forge
+  - anaconda
+  - pytorch
+dependencies:
+  - python=3.9.*
+  - numpy
+  - pytorch=1.12.*
+  - torchvision
+  - torchaudio
+  - torchtext
+  - torchdata
+  - cudatoolkit=10.2.*
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - jupyter
+  - opencv=4.5.*
