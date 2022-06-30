@@ -18,3 +18,4 @@ dependencies:
   - pandas
   - jupyter
   - opencv=4.5.*
+  - scipy
