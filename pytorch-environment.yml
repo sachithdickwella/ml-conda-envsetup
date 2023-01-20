@@ -1,21 +1,32 @@
 name: pytorch-dev
 channels:
-  - nodefaults
+  - defaults
   - conda-forge
   - anaconda
   - pytorch
+  - pypi
 dependencies:
-  - python=3.9.*
+  - python=3.11.*
+  - pylint
+  - ipython
   - numpy
-  - pytorch=1.12.*
+  - pytorch=1.13.*
   - torchvision
   - torchaudio
   - torchtext
   - torchdata
-  - cudatoolkit=10.2.*
+# - cudatoolkit=10.2.* - Removed for MacOS
   - matplotlib
+  - plotly=5.12.*
+  - seaborn
   - scikit-learn
   - pandas
   - jupyter
-  - opencv=4.5.*
+  - opencv=4.7.*
   - scipy
+  - pillow
+  - xlrd
+  - lxml
+  - pip
+  - pip:
+    - jupyterlab
