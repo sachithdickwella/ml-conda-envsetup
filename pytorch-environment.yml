@@ -5,8 +5,9 @@ channels:
   - anaconda
   - pytorch
   - pypi
+  - nvidia
 dependencies:
-  - python=3.11.*
+  - python=3.10.*
   - pylint
   - ipython
   - numpy
@@ -15,14 +16,15 @@ dependencies:
   - torchaudio
   - torchtext
   - torchdata
-# - cudatoolkit=10.2.* - Removed for MacOS
+  - pytorch-cuda=11.7 # Remove for MacOS
   - matplotlib
-  - plotly=5.12.*
+  - plotly
   - seaborn
   - scikit-learn
+  - scikit-learn-intelex
   - pandas
   - jupyter
-  - opencv=4.7.*
+  - opencv
   - scipy
   - pillow
   - xlrd
