@@ -1,4 +1,4 @@
-name: tensorflowdev
+name: tfdev
 channels:
   - defaults
   - conda-forge
@@ -16,6 +16,9 @@ dependencies:
   - seaborn
   - scikit-learn
   - scikit-learn-intelex
+  - tensorflow=2.11.*
+  - cudatoolkit=11.2.*  # Remove for MacOS
+  - cudnn=8.1.*         # Remove for MacOS
   - pandas
   - jupyter
   - opencv
