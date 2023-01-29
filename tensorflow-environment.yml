@@ -1,0 +1,28 @@
+name: tensorflowdev
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - pytorch
+  - pypi
+  - nvidia
+dependencies:
+  - python=3.10.*
+  - pylint
+  - ipython
+  - numpy
+  - matplotlib
+  - plotly
+  - seaborn
+  - scikit-learn
+  - scikit-learn-intelex
+  - pandas
+  - jupyter
+  - opencv
+  - scipy
+  - pillow
+  - xlrd
+  - lxml
+  - pip
+  - pip:
+    - jupyterlab
