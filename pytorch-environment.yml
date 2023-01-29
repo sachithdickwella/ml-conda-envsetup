@@ -1,4 +1,4 @@
-name: pytorch-dev
+name: pytorchdev
 channels:
   - defaults
   - conda-forge
