@@ -26,6 +26,8 @@ dependencies:
   - pillow
   - xlrd
   - lxml
+  - html5lib
+  - beautifulsoup4
   - pip
   - pip:
     - jupyterlab
