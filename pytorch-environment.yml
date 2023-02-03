@@ -16,7 +16,7 @@ dependencies:
   - torchaudio
   - torchtext
   - torchdata
-  - pytorch-cuda=11.7 # Remove for MacOS
+  - pytorch-cuda=11.7.* # Remove for MacOS
   - matplotlib
   - plotly
   - seaborn
