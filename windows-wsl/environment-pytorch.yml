@@ -1,0 +1,11 @@
+name: pytorch
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - pytorch=1.13.*
+  - torchvision
+  - torchaudio
+  - torchtext
+  - torchdata
+  - pytorch-cuda=11.7.* # Remove for MacOS

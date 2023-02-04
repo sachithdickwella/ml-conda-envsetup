@@ -1,10 +1,9 @@
-name: tfdev
+name: base-env
 channels:
   - defaults
   - conda-forge
   - anaconda
   - pypi
-  - nvidia
 dependencies:
   - python=3.10.*
   - pylint
@@ -15,9 +14,6 @@ dependencies:
   - seaborn
   - scikit-learn
   - scikit-learn-intelex
-  - tensorflow=2.11.*
-  - cudatoolkit=11.2.*  # Remove for MacOS
-  - cudnn=8.1.*         # Remove for MacOS
   - pandas
   - jupyter
   - opencv
@@ -27,6 +23,4 @@ dependencies:
   - lxml
   - html5lib
   - beautifulsoup4
-  - pip
-  - pip:
-    - jupyterlab
+  - jupyterlab

@@ -1,0 +1,10 @@
+name: tf
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - nvidia
+dependencies:
+  - tensorflow=2.11.*
+  - cudatoolkit=11.2.*
+  - cudnn=8.1.*

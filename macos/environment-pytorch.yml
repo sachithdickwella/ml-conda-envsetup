@@ -1,4 +1,4 @@
-name: pytorchdev
+name: pytorch
 channels:
   - defaults
   - conda-forge
@@ -16,7 +16,6 @@ dependencies:
   - torchaudio
   - torchtext
   - torchdata
-  - pytorch-cuda=11.7.* # Remove for MacOS
   - matplotlib
   - plotly
   - seaborn
@@ -31,6 +30,4 @@ dependencies:
   - lxml
   - html5lib
   - beautifulsoup4
-  - pip
-  - pip:
-    - jupyterlab
+  - jupyterlab
