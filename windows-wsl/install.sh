@@ -13,7 +13,7 @@ if [ $FRM == 'pytorch' ]; then
     conda env create -n ${ENV} -f environment-base.yml
     conda env update -n ${ENV} -f pytorch/environment-pytorch.yml
 elif [ $FRM == 'tensorflow' ]; then
-    ENV='tfdev'
+    ENV='tf'
     conda env create -n ${ENV} -f environment-base.yml
     conda env update -n ${ENV} -f tf/environment-tf.yml
 fi
