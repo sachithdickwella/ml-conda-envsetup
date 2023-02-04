@@ -1,11 +1,34 @@
 name: pytorch
 channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - pypi
   - pytorch
   - nvidia
 dependencies:
+  - python=3.10.*
+  - pylint
+  - ipython
+  - numpy
   - pytorch=1.13.*
   - torchvision
   - torchaudio
   - torchtext
   - torchdata
-  - pytorch-cuda=11.7.* # Remove for MacOS
+  - pytorch-cuda=11.7.*
+  - matplotlib
+  - plotly
+  - seaborn
+  - scikit-learn
+  - scikit-learn-intelex
+  - pandas
+  - jupyter
+  - opencv
+  - scipy
+  - pillow
+  - xlrd
+  - lxml
+  - html5lib
+  - beautifulsoup4
+  - jupyterlab

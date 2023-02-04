@@ -1,4 +1,4 @@
-name: base-env
+name: base-dev
 channels:
   - defaults
   - conda-forge
