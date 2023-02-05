@@ -8,15 +8,16 @@ dependencies:
   - python=3.10.*
   - pylint
   - ipython
+  - ipywidgets
   - numpy
   - matplotlib
   - plotly
   - seaborn
+  - seaborn-analyzer
   - scikit-learn
   - scikit-learn-intelex
   - pandas
   - jupyter
-  - opencv
   - scipy
   - pillow
   - xlrd
@@ -24,3 +25,6 @@ dependencies:
   - html5lib
   - beautifulsoup4
   - jupyterlab
+  - pip
+  - pip:
+    - opencv-python==4.7.*

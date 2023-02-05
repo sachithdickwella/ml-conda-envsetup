@@ -8,24 +8,29 @@ channels:
 dependencies:
   - python=3.10.*
   - pylint
-  - ipython
   - numpy
   - tensorflow=2.11.*
   - cudatoolkit=11.2.*
   - cudnn=8.1.*
-  - matplotlib
-  - plotly
-  - seaborn
-  - scikit-learn
-  - scikit-learn-intelex
-  - pandas
-  - jupyter
-  - opencv
-  - scipy
-  - pillow
-  - xlrd
-  - lxml
-  - html5lib
-  - beautifulsoup4
-  - jupyterlab
+  - pip
+  - pip:
+    - ipython
+    - ipywidgets
+    - matplotlib
+    - plotly
+    - seaborn
+    - seaborn-analyzer
+    - scikit-learn
+    - scikit-learn-intelex
+    - pandas
+    - jupyter
+    - jupyterlab
+    - opencv-python==4.7.*
+    - scipy
+    - pillow
+    - xlrd
+    - openpyxl
+    - lxml
+    - html5lib
+    - beautifulsoup4
   
