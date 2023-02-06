@@ -33,4 +33,5 @@ dependencies:
     - lxml
     - html5lib
     - beautifulsoup4
+    - tensorflow-directml-plugin
   
