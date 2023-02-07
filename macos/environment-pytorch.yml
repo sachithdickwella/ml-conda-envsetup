@@ -27,6 +27,8 @@ dependencies:
   - scipy
   - pillow
   - xlrd
+  - openpyxl
+  - defusedxml
   - lxml
   - html5lib
   - beautifulsoup4

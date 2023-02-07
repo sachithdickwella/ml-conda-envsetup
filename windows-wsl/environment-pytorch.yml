@@ -34,6 +34,7 @@ dependencies:
     - pillow
     - xlrd
     - openpyxl
+    - defusedxml
     - lxml
     - html5lib
     - beautifulsoup4
