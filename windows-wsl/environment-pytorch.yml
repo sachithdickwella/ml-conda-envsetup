@@ -38,3 +38,4 @@ dependencies:
     - lxml
     - html5lib
     - beautifulsoup4
+    - autopep8

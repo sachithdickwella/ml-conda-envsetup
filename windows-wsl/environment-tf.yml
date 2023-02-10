@@ -35,4 +35,5 @@ dependencies:
     - html5lib
     - beautifulsoup4
     - tensorflow-directml-plugin
+    - autopep8
   
