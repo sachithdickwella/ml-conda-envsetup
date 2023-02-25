@@ -12,6 +12,7 @@ dependencies:
   - tensorflow=2.11.*
   - cudatoolkit=11.2.*
   - cudnn=8.1.*
+  - category_encoders
   - pip
   - pip:
     - ipython
