@@ -35,7 +35,7 @@ dependencies:
     - scipy
     - pillow
     - xlrd
-    - openpyxl
+    - openpyxl==3.1.0
     - defusedxml
     - lxml
     - html5lib
