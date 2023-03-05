@@ -6,6 +6,7 @@ channels:
   - pypi
   - pytorch
   - nvidia
+  - rapidsai
 dependencies:
   - python=3.10.*
   - pylint
