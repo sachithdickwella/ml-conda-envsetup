@@ -5,7 +5,6 @@ channels:
   - anaconda
   - pypi
   - nvidia
-  - rapidsai
 dependencies:
   - python=3.10.*
   - pylint

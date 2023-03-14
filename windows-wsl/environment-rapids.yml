@@ -1,0 +1,26 @@
+name: rapidsai
+channels: 
+  - conda-forge
+  - nvidia
+  - rapidsai
+dependencies:
+  - python=3.10
+  - rapids=23.02
+  - cudatoolkit=11.8
+  - pylint
+  - category_encoders
+  - scikit-learn-intelex
+  - pip
+  - pip:
+    - matplotlib
+    - plotly
+    - seaborn
+    - seaborn-analyzer
+    - jupyter
+    - jupyterlab
+    - opencv-python==4.7.*
+    - xlrd
+    - openpyxl==3.1.0
+    - lxml
+    - html5lib
+    - autopep8
