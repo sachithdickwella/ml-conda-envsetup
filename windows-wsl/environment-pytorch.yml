@@ -40,3 +40,4 @@ dependencies:
     - html5lib
     - beautifulsoup4
     - autopep8
+    - tabulate

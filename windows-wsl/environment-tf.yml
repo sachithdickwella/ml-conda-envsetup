@@ -37,4 +37,5 @@ dependencies:
     - beautifulsoup4
     - tensorflow-directml-plugin
     - autopep8
+    - tabulate
   
