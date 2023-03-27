@@ -25,3 +25,4 @@ dependencies:
     - html5lib
     - autopep8
     - tabulate
+    - mlxtend

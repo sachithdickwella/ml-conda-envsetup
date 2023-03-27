@@ -41,3 +41,4 @@ dependencies:
     - beautifulsoup4
     - autopep8
     - tabulate
+    - mlxtend

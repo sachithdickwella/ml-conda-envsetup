@@ -38,4 +38,5 @@ dependencies:
     - tensorflow-directml-plugin
     - autopep8
     - tabulate
+    - mlxtend
   
