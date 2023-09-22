@@ -5,7 +5,7 @@ channels:
   - anaconda
   - pypi
 dependencies:
-  - python=3.11.*
+  - python=3.10.*
   - pylint
   - numpy
   - category_encoders
