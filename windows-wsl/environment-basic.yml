@@ -1,0 +1,36 @@
+name: basic
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - pypi
+dependencies:
+  - python=3.11.*
+  - pylint
+  - numpy
+  - category_encoders
+  - pip
+  - pip:
+    - ipython
+    - ipywidgets
+    - matplotlib
+    - plotly
+    - seaborn
+    - seaborn-analyzer
+    - scikit-learn
+    - scikit-learn-intelex
+    - pandas
+    - jupyter
+    - jupyterlab
+    - opencv-python==4.*.*
+    - scipy
+    - pillow
+    - xlrd
+    - openpyxl==3.1.0
+    - defusedxml
+    - lxml
+    - html5lib
+    - beautifulsoup4
+    - autopep8
+    - tabulate
+    - mlxtend
