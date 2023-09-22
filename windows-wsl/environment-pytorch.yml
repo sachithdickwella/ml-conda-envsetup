@@ -7,7 +7,7 @@ channels:
   - pytorch
   - nvidia
 dependencies:
-  - python=3.10.*
+  - python=3.11.*
   - pylint
   - numpy
   - pytorch=1.13.*
@@ -30,7 +30,7 @@ dependencies:
     - pandas
     - jupyter
     - jupyterlab
-    - opencv-python==4.7.*
+    - opencv-python==4.8.*
     - scipy
     - pillow
     - xlrd

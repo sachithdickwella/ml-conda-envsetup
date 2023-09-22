@@ -4,7 +4,7 @@ channels:
   - nvidia
   - rapidsai
 dependencies:
-  - python=3.10.*
+  - python=3.11.*
   - rapids=23.02
   - cudatoolkit=11.8
   - pylint
@@ -18,7 +18,7 @@ dependencies:
     - seaborn-analyzer
     - jupyter
     - jupyterlab
-    - opencv-python==4.7.*
+    - opencv-python==4.8.*
     - xlrd
     - openpyxl==3.1.0
     - lxml

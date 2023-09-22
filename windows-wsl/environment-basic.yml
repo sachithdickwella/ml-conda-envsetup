@@ -5,7 +5,7 @@ channels:
   - anaconda
   - pypi
 dependencies:
-  - python=3.10.*
+  - python=3.11.*
   - pylint
   - numpy
   - category_encoders
@@ -22,7 +22,7 @@ dependencies:
     - pandas
     - jupyter
     - jupyterlab
-    - opencv-python==4.*.*
+    - opencv-python==4.8.*
     - scipy
     - pillow
     - xlrd
