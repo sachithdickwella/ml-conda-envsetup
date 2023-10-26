@@ -1,4 +1,4 @@
-name: nlp
+name: spacy
 channels:
   - defaults
   - conda-forge
@@ -9,6 +9,8 @@ dependencies:
   - pylint
   - numpy
   - category_encoders
+  - spacy
+  - cupy
   - pip
   - pip:
     - ipython
