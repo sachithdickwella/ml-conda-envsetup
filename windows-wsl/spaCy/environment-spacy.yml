@@ -4,10 +4,18 @@ channels:
   - conda-forge
   - anaconda
   - pypi
+  - pytorch
+  - nvidia
 dependencies:
-  - python=3.11.*
+  - python=3.11.6
   - pylint
   - numpy
+  - pytorch=2.1.0
+  - torchvision
+  - torchaudio
+  - torchtext
+  - torchdata
+  - pytorch-cuda=12.1
   - category_encoders
   - spacy
   - cupy
