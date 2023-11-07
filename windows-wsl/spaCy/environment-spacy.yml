@@ -32,7 +32,7 @@ dependencies:
     - pandas
     - jupyter
     - jupyterlab
-    - opencv-python==4.8.*
+    - opencv-python
     - scipy
     - pillow
     - xlrd
