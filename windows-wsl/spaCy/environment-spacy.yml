@@ -6,8 +6,9 @@ channels:
   - pypi
   - pytorch
   - nvidia
+  - rapidsai
 dependencies:
-  - python=3.11.6
+  - python=3.10.0
   - pylint
   - numpy
   - pytorch=2.1.0
@@ -19,6 +20,9 @@ dependencies:
   - category_encoders
   - spacy
   - cupy
+  - cudf=23.10 
+  - cuml=23.10
+  - cuda-version=12.0
   - pip
   - pip:
     - ipython
