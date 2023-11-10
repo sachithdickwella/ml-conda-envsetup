@@ -1,4 +1,4 @@
-name: spacy
+name: spacy-torch
 channels:
   - defaults
   - conda-forge
@@ -19,6 +19,8 @@ dependencies:
   - category_encoders
   - spacy
   - cupy
+  - scikit-learn
+  - scikit-learn-intelex
   - pip
   - pip:
     - ipython
@@ -27,8 +29,6 @@ dependencies:
     - plotly
     - seaborn
     - seaborn-analyzer
-    - scikit-learn
-    - scikit-learn-intelex
     - pandas
     - jupyter
     - jupyterlab
