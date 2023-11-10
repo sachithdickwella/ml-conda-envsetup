@@ -20,8 +20,8 @@ dependencies:
   - category_encoders
   - spacy
   - cupy
-  - cudf=23.10 
-  - cuml=23.10
+  - cudf=23.10.01
+  - cuml=23.10.01
   - cuda-version=12.0
   - pip
   - pip:
