@@ -47,3 +47,4 @@ dependencies:
     - tabulate
     - mlxtend
     - pandas==1.5.3
+    - wordcloud==1.9.2
