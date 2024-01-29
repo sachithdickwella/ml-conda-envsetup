@@ -7,7 +7,7 @@ channels:
   - pytorch
   - nvidia
 dependencies:
-  - python=3.12.*
+  - python=3.11.*
   - pylint
   - numpy
   - pytorch=2.1.2
