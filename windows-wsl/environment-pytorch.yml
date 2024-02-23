@@ -7,7 +7,7 @@ channels:
   - pytorch
   - nvidia
 dependencies:
-  - python=3.11.*
+  - python=3.10.13
   - pylint
   - numpy
   - pytorch=2.1.0
@@ -18,9 +18,6 @@ dependencies:
   - cuda-version=12.3
   - pytorch-cuda=12.1
   - category_encoders
-  - scikit-learn
-  - scikit-learn-intelex
-  - pyarrow
   - pip
   - pip:
     - ipython
@@ -32,13 +29,16 @@ dependencies:
     - pandas
     - jupyter
     - jupyterlab
-    - opencv-python==4.9.*
+    - opencv-python==4.9.0.80
     - scipy
+    - scikit-learn
+    - scikit-learn-intelex
     - pillow
     - xlrd
     - openpyxl==3.1.0
     - defusedxml
     - lxml
+    - pyarrow
     - html5lib
     - beautifulsoup4
     - autopep8
