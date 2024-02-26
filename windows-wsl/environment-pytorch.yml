@@ -11,7 +11,7 @@ dependencies:
   - pylint
   - numpy
   - pytorch=2.2.1
-  - torchvision
+  - torchvision=0.17.1
   - torchaudio
   - torchtext
   - torchdata
