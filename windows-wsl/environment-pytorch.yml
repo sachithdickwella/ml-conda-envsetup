@@ -44,3 +44,4 @@ dependencies:
     - autopep8
     - tabulate
     - mlxtend
+    - PySide6==6.6.2
