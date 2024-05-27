@@ -1,0 +1,47 @@
+name: omniverse
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - pypi
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10.14
+  - pylint
+  - numpy
+  - pytorch=2.3.0
+  - torchvision
+  - torchaudio
+  - torchtext
+  - torchdata
+  - cuda-version=12.5
+  - pytorch-cuda=12.4
+  - category_encoders
+  - pip
+  - pip:
+    - ipython
+    - ipywidgets
+    - matplotlib
+    - plotly
+    - seaborn
+    - seaborn-analyzer
+    - pandas
+    - jupyter
+    - jupyterlab
+    - opencv-python==4.9.0.80
+    - scipy
+    - scikit-learn
+    - scikit-learn-intelex
+    - pillow
+    - xlrd
+    - openpyxl==3.1.0
+    - defusedxml
+    - lxml
+    - pyarrow
+    - html5lib
+    - beautifulsoup4
+    - autopep8
+    - tabulate
+    - mlxtend
+    - PySide6==6.6.2
