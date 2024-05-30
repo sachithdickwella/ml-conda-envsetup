@@ -18,6 +18,7 @@ dependencies:
   - cuda-version=12.5
   - pytorch-cuda=12.4
   - category_encoders
+  - poetry
   - pip
   - pip:
     - ipython
