@@ -19,7 +19,6 @@ dependencies:
   - plotly
   - seaborn
   - scikit-learn
-  - scikit-learn-intelex
   - pandas
   - jupyter
   - opencv
