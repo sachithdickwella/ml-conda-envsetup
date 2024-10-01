@@ -1,17 +1,16 @@
-name: pytorch
+name: torch
 channels:
   - defaults
   - conda-forge
   - anaconda
   - pytorch
   - pypi
-  - nvidia
 dependencies:
-  - python=3.11.*
+  - python=3.12.*
   - pylint
   - ipython
   - numpy
-  - pytorch=1.13.*
+  - pytorch=2.4.*
   - torchvision
   - torchaudio
   - torchtext
@@ -33,3 +32,12 @@ dependencies:
   - html5lib
   - beautifulsoup4
   - jupyterlab
+  - pip
+  - pip:
+    - ipywidgets
+    - seaborn-analyzer
+    - pyarrow
+    - autopep8
+    - tabulate
+    - mlxtend
+    - PySide6==6.7.3
