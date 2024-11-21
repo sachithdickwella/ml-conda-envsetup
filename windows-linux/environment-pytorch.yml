@@ -7,16 +7,15 @@ channels:
   - pytorch
   - nvidia
 dependencies:
-  - python=3.11.8
+  - python=3.12.7
   - pylint
   - numpy
-  - pytorch=2.2.1
-  - torchvision=0.17.1
+  - pytorch=2.5.*
+  - torchvision=0.20.*
   - torchaudio
   - torchtext
   - torchdata
-  - cuda-version=12.3
-  - pytorch-cuda=12.1
+  - pytorch-cuda=12.4.*
   - category_encoders
   - pip
   - pip:
@@ -26,22 +25,20 @@ dependencies:
     - plotly
     - seaborn
     - seaborn-analyzer
+    - scikit-learn
+    - scikit-learn-intelex
     - pandas
     - jupyter
     - jupyterlab
-    - opencv-python==4.9.0.80
+    - opencv-python==4.10.*
     - scipy
-    - scikit-learn
-    - scikit-learn-intelex
     - pillow
     - xlrd
-    - openpyxl==3.1.0
+    - openpyxl==3.1.5
     - defusedxml
     - lxml
-    - pyarrow
     - html5lib
     - beautifulsoup4
     - autopep8
     - tabulate
     - mlxtend
-    - PySide6==6.6.2
