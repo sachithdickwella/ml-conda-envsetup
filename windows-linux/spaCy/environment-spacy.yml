@@ -1,22 +1,29 @@
-name: torch
+name: spacy
 channels:
   - defaults
   - conda-forge
   - anaconda
   - pypi
-  - pytorch
   - nvidia
+  - rapidsai
+  - pytorch
 dependencies:
-  - python=3.12.7
+  - python=3.10
   - pylint
   - numpy
-  - pytorch=2.5.*
-  - torchvision=0.20.*
+  - pytorch=2.1.0
+  - torchvision
   - torchaudio
   - torchtext
   - torchdata
-  - pytorch-cuda=12.4.*
+  - rapids=23.10
+  - cuda-version=12.0
+  - pytorch-cuda=12.1
   - category_encoders
+  - spacy
+  - cupy
+  - scikit-learn
+  - scikit-learn-intelex
   - pip
   - pip:
     - ipython
@@ -25,16 +32,13 @@ dependencies:
     - plotly
     - seaborn
     - seaborn-analyzer
-    - scikit-learn
-    - scikit-learn-intelex
-    - pandas
     - jupyter
     - jupyterlab
-    - opencv-python==4.10.*
+    - opencv-python
     - scipy
     - pillow
     - xlrd
-    - openpyxl==3.1.5
+    - openpyxl==3.1.0
     - defusedxml
     - lxml
     - html5lib
@@ -42,3 +46,6 @@ dependencies:
     - autopep8
     - tabulate
     - mlxtend
+    - pandas==1.5.3
+    - wordcloud==1.9.2
+    - gensim==4.3.2
